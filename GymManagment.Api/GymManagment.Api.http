@@ -1,0 +1,10 @@
+@GymManagment.Api_HostAddress = http://localhost:5031
+
+// TODO: guid adminId fake
+@SubscriptionId = 93d2aab6-79a0-467d-b6c7-fe4656db77c3
+POST {{GymManagment.Api_HostAddress}}/api/subscriptions 
+Content-Type: application/json
+{
+  "AdminId": "93d2aab6-79a0-467d-b6c7-fe4656db77c3",
+ "SubscriptionType" : "Free"
+}
